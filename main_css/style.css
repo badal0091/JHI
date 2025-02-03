@@ -1,0 +1,1259 @@
+.element-graphs {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .element-graphs .element-graphs-s {
+    background-color: var(--primitives-colors-background-02);
+    border: 1px solid;
+    border-color: var(--primarypurple);
+    width: 1440px;
+    height: 1081px;
+    position: relative;
+  }
+  
+  .element-graphs .overlap {
+    position: absolute;
+    width: 1360px;
+    height: 634px;
+    top: 108px;
+    left: 40px;
+  }
+  
+  .element-graphs .overlap-group {
+    position: absolute;
+    width: 1360px;
+    height: 634px;
+    top: 0;
+    left: 0;
+  }
+  
+  .element-graphs .div {
+    position: absolute;
+    width: 1360px;
+    height: 592px;
+    top: 42px;
+    left: 0;
+  }
+  
+  .element-graphs .chart {
+    position: absolute;
+    width: 888px;
+    height: 592px;
+    top: 0;
+    left: 215px;
+    overflow: hidden;
+    background-image: url(https://c.animaapp.com/i3AMIRRz/img/vector.svg);
+    background-size: 100% 100%;
+  }
+  
+  .element-graphs .vector-wrapper {
+    position: absolute;
+    width: 858px;
+    height: 500px;
+    top: -1323px;
+    left: 2790px;
+    background-image: url(./img/vector.svg);
+    background-size: 100% 100%;
+  }
+  
+  .element-graphs .img {
+    position: absolute;
+    width: 858px;
+    height: 500px;
+    top: 0;
+    left: 0;
+  }
+  
+  .element-graphs .group {
+    position: absolute;
+    width: 858px;
+    height: 500px;
+    top: 70px;
+    left: 15px;
+    background-image: url(https://c.animaapp.com/i3AMIRRz/img/clip-path-group.png);
+    background-size: 100% 100%;
+  }
+  
+  .element-graphs .text-wrapper {
+    position: absolute;
+    top: 32px;
+    left: 440px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #333333;
+    font-size: 1.7px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .element-graphs .text {
+    top: 67px;
+    left: 444px;
+    font-family: "Inter", Helvetica;
+    color: #666666;
+    font-size: 1.2px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    position: absolute;
+    font-weight: 400;
+  }
+  
+  .element-graphs .text-2 {
+    top: 586px;
+    left: 15px;
+    font-family: "Inter", Helvetica;
+    color: #666666;
+    font-size: 1.2px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    position: absolute;
+    font-weight: 400;
+  }
+  
+  .element-graphs .everviz-com-natural {
+    position: absolute;
+    top: 582px;
+    left: 860px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #999999;
+    font-size: 0.9px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .element-graphs .span {
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #999999;
+    font-size: 0.9px;
+    letter-spacing: 0;
+  }
+  
+  .element-graphs .line {
+    position: absolute;
+    width: 1360px;
+    height: 3px;
+    top: 17px;
+    left: 0;
+  }
+  
+  .element-graphs .DC-dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    top: 0;
+    left: 1210px;
+  }
+  
+  .element-graphs .frame {
+    display: flex;
+    height: 44px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: var(--otherspure-white);
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: var(--othersdisabled-dark);
+  }
+  
+  .element-graphs .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--desktop-button-font-family);
+    font-weight: var(--desktop-button-font-weight);
+    color: var(--typographytitle-darkest);
+    font-size: var(--desktop-button-font-size);
+    letter-spacing: var(--desktop-button-letter-spacing);
+    line-height: var(--desktop-button-line-height);
+    font-style: var(--desktop-button-font-style);
+  }
+  
+  .element-graphs .DC-calendar-date {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-top: -1.00px;
+    margin-bottom: -1.00px;
+  }
+  
+  .element-graphs .search-field {
+    display: flex;
+    width: 207px;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 12px;
+    position: absolute;
+    top: 139px;
+    left: 0;
+  }
+  
+  .element-graphs .frame-2 {
+    position: relative;
+    width: 207px;
+    height: 44px;
+    background-color: var(--otherspure-white);
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--functional-statesinactive);
+  }
+  
+  .element-graphs .text-wrapper-3 {
+    position: absolute;
+    top: 12px;
+    left: 39px;
+    font-family: var(--desktop-body-copy-font-family);
+    font-weight: var(--desktop-body-copy-font-weight);
+    color: var(--typographyinstructions-light);
+    font-size: var(--desktop-body-copy-font-size);
+    letter-spacing: var(--desktop-body-copy-letter-spacing);
+    line-height: var(--desktop-body-copy-line-height);
+    font-style: var(--desktop-body-copy-font-style);
+  }
+  
+  .element-graphs .icons-search {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .element-graphs .union-wrapper {
+    position: relative;
+    height: 24px;
+  }
+  
+  .element-graphs .union {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    left: 2px;
+  }
+  
+  .element-graphs .text-wrapper-4 {
+    position: absolute;
+    top: 97px;
+    left: 0;
+    font-family: var(--text-header-6-font-family);
+    font-weight: var(--text-header-6-font-weight);
+    color: var(--primitives-colors-misc-01);
+    font-size: var(--text-header-6-font-size);
+    letter-spacing: var(--text-header-6-letter-spacing);
+    line-height: var(--text-header-6-line-height);
+    font-style: var(--text-header-6-font-style);
+  }
+  
+  .element-graphs .frame-3 {
+    display: flex;
+    flex-direction: column;
+    width: 206px;
+    align-items: flex-start;
+    gap: 24px;
+    position: absolute;
+    top: 210px;
+    left: 0;
+  }
+  
+  .element-graphs .group-2 {
+    position: relative;
+    width: 207px;
+    height: 21px;
+    margin-right: -1.00px;
+  }
+  
+  .element-graphs .text-wrapper-5 {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    font-family: var(--text-body-font-family);
+    font-weight: var(--text-body-font-weight);
+    color: var(--primitives-colors-text-secondary);
+    font-size: var(--text-body-font-size);
+    letter-spacing: var(--text-body-letter-spacing);
+    line-height: var(--text-body-line-height);
+    font-style: var(--text-body-font-style);
+  }
+  
+  .element-graphs .rectangle {
+    position: absolute;
+    width: 104px;
+    height: 16px;
+    top: 3px;
+    left: 38px;
+    background: linear-gradient(
+      180deg,
+      rgb(18, 116, 154) 0%,
+      rgb(101, 215, 237) 100%
+    );
+  }
+  
+  .element-graphs .text-wrapper-6 {
+    position: absolute;
+    top: 0;
+    left: 156px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: var(--primitives-colors-text-primary);
+    font-size: 14px;
+    letter-spacing: -0.15px;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .element-graphs .group-3 {
+    position: relative;
+    width: 208px;
+    height: 21px;
+    margin-right: -2.00px;
+  }
+  
+  .element-graphs .rectangle-2 {
+    position: absolute;
+    width: 98px;
+    height: 16px;
+    top: 3px;
+    left: 38px;
+    background: linear-gradient(
+      180deg,
+      rgb(18, 116, 154) 0%,
+      rgb(101, 215, 237) 100%
+    );
+  }
+  
+  .element-graphs .rectangle-3 {
+    position: absolute;
+    width: 94px;
+    height: 16px;
+    top: 3px;
+    left: 38px;
+    background: linear-gradient(
+      180deg,
+      rgb(18, 116, 154) 0%,
+      rgb(101, 215, 237) 100%
+    );
+  }
+  
+  .element-graphs .overlap-wrapper {
+    position: absolute;
+    width: 200px;
+    height: 135px;
+    top: 462px;
+    left: 7px;
+  }
+  
+  .element-graphs .overlap-2 {
+    position: relative;
+    width: 192px;
+    height: 135px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: var(--primitives-colors-misc-04);
+  }
+  
+  .element-graphs .text-wrapper-7 {
+    position: absolute;
+    height: 16px;
+    top: 5px;
+    left: 11px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 400;
+    color: var(--primitives-colors-text-alt);
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .element-graphs .text-wrapper-8 {
+    position: absolute;
+    height: 19px;
+    top: 23px;
+    left: 11px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: var(--primitives-colors-misc-01);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .element-graphs .text-wrapper-9 {
+    position: absolute;
+    height: 19px;
+    top: 107px;
+    left: 25px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 400;
+    color: var(--primitives-colors-misc-01);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .element-graphs .text-wrapper-10 {
+    position: absolute;
+    height: 19px;
+    top: 107px;
+    left: 120px;
+    font-family: var(--text-body-font-family);
+    font-weight: var(--text-body-font-weight);
+    color: var(--primitives-colors-misc-01);
+    font-size: var(--text-body-font-size);
+    letter-spacing: var(--text-body-letter-spacing);
+    line-height: var(--text-body-line-height);
+    font-style: var(--text-body-font-style);
+  }
+  
+  .element-graphs .overlap-group-2 {
+    position: absolute;
+    width: 133px;
+    height: 52px;
+    top: 53px;
+    left: 23px;
+  }
+  
+  .element-graphs .ellipse {
+    width: 52px;
+    height: 52px;
+    top: 0;
+    left: 0;
+    border-radius: 26px;
+    position: absolute;
+    border: 1px solid;
+    border-color: #2e6ce9;
+  }
+  
+  .element-graphs .ellipse-2 {
+    width: 24px;
+    height: 24px;
+    top: 14px;
+    left: 109px;
+    border-radius: 12px;
+    position: absolute;
+    border: 1px solid;
+    border-color: #2e6ce9;
+  }
+  
+  .element-graphs .vector {
+    top: 2px;
+    position: absolute;
+    width: 88px;
+    height: 13px;
+    left: 34px;
+  }
+  
+  .element-graphs .vector-2 {
+    top: 38px;
+    position: absolute;
+    width: 88px;
+    height: 13px;
+    left: 34px;
+  }
+  
+  .element-graphs .frame-4 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: absolute;
+    top: 98px;
+    left: 1152px;
+  }
+  
+  .element-graphs .frame-5 {
+    display: flex;
+    flex-direction: column;
+    width: 131px;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .element-graphs .text-wrapper-11 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--text-header-6-font-family);
+    font-weight: var(--text-header-6-font-weight);
+    color: var(--primitives-colors-misc-01);
+    font-size: var(--text-header-6-font-size);
+    letter-spacing: var(--text-header-6-letter-spacing);
+    line-height: var(--text-header-6-line-height);
+    font-style: var(--text-header-6-font-style);
+  }
+  
+  .element-graphs .text-wrapper-12 {
+    position: relative;
+    width: fit-content;
+    margin-right: -9.00px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: var(--primitives-colors-primary-02);
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .element-graphs .line-2 {
+    position: relative;
+    width: 204px;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .element-graphs .group-4 {
+    position: relative;
+    width: 210px;
+    height: 96px;
+    margin-right: -2.00px;
+  }
+  
+  .element-graphs .text-wrapper-13 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: var(--text-header-6-font-family);
+    font-weight: var(--text-header-6-font-weight);
+    color: var(--primitives-colors-text-alt);
+    font-size: var(--text-header-6-font-size);
+    letter-spacing: var(--text-header-6-letter-spacing);
+    line-height: var(--text-header-6-line-height);
+    font-style: var(--text-header-6-font-style);
+  }
+  
+  .element-graphs .frame-6 {
+    display: flex;
+    width: 208px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 40px;
+    left: 0;
+  }
+  
+  .element-graphs .text-wrapper-14 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--text-body-font-family);
+    font-weight: var(--text-body-font-weight);
+    color: var(--primitives-colors-misc-01);
+    font-size: var(--text-body-font-size);
+    letter-spacing: var(--text-body-letter-spacing);
+    line-height: var(--text-body-line-height);
+    font-style: var(--text-body-font-style);
+  }
+  
+  .element-graphs .text-wrapper-15 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 700;
+    color: var(--primitives-colors-misc-01);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .element-graphs .frame-7 {
+    display: flex;
+    width: 208px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 74px;
+    left: 0;
+  }
+  
+  .element-graphs .group-5 {
+    position: relative;
+    width: 213px;
+    height: 232px;
+    margin-right: -5.00px;
+  }
+  
+  .element-graphs .text-wrapper-16 {
+    position: absolute;
+    top: 0;
+    left: 1px;
+    font-family: var(--text-header-6-font-family);
+    font-weight: var(--text-header-6-font-weight);
+    color: var(--primitives-colors-text-alt);
+    font-size: var(--text-header-6-font-size);
+    letter-spacing: var(--text-header-6-letter-spacing);
+    line-height: var(--text-header-6-line-height);
+    font-style: var(--text-header-6-font-style);
+  }
+  
+  .element-graphs .global-USA-asia {
+    position: absolute;
+    height: 192px;
+    top: 40px;
+    left: 0;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 400;
+    color: var(--primitives-colors-misc-01);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24.1px;
+  }
+  
+  .element-graphs .element-b-b-b {
+    position: absolute;
+    top: 40px;
+    left: 147px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: var(--primitives-colors-primary-03);
+    font-size: 16px;
+    letter-spacing: -0.18px;
+    line-height: 24px;
+  }
+  
+  .element-graphs .frame-8 {
+    display: flex;
+    flex-direction: column;
+    width: 123px;
+    align-items: flex-start;
+    gap: 5px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .element-graphs .text-wrapper-17 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--text-header-6-font-family);
+    font-weight: var(--text-header-6-font-weight);
+    color: var(--primitives-colors-text-alt);
+    font-size: var(--text-header-6-font-size);
+    letter-spacing: var(--text-header-6-letter-spacing);
+    line-height: var(--text-header-6-line-height);
+    font-style: var(--text-header-6-font-style);
+  }
+  
+  .element-graphs .element-active-inactive {
+    position: relative;
+    width: fit-content;
+    margin-right: -81.00px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 400;
+    color: var(--primitives-colors-misc-01);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .element-graphs .text-wrapper-18 {
+    font-weight: 700;
+  }
+  
+  .element-graphs .text-wrapper-19 {
+    font-family: var(--text-body-font-family);
+    font-weight: var(--text-body-font-weight);
+    color: #393d47;
+    font-size: var(--text-body-font-size);
+    letter-spacing: var(--text-body-letter-spacing);
+    font-style: var(--text-body-font-style);
+    line-height: var(--text-body-line-height);
+  }
+  
+  .element-graphs .text-wrapper-20 {
+    font-weight: var(--text-body-font-weight);
+    font-family: var(--text-body-font-family);
+    font-style: var(--text-body-font-style);
+    letter-spacing: var(--text-body-letter-spacing);
+    line-height: var(--text-body-line-height);
+    font-size: var(--text-body-font-size);
+  }
+  
+  .element-graphs .p {
+    position: absolute;
+    height: 30px;
+    top: 6px;
+    left: 0;
+    font-family: var(--text-header-5-font-family);
+    font-weight: var(--text-header-5-font-weight);
+    color: var(--primitives-colors-misc-01);
+    font-size: var(--text-header-5-font-size);
+    letter-spacing: var(--text-header-5-letter-spacing);
+    line-height: var(--text-header-5-line-height);
+    font-style: var(--text-header-5-font-style);
+  }
+  
+  .element-graphs .text-wrapper-21 {
+    position: absolute;
+    height: 19px;
+    top: 12px;
+    left: 1132px;
+    font-family: var(--text-body-font-family);
+    font-weight: var(--text-body-font-weight);
+    color: var(--primitives-colors-misc-01);
+    font-size: var(--text-body-font-size);
+    text-align: right;
+    letter-spacing: var(--text-body-letter-spacing);
+    line-height: var(--text-body-line-height);
+    font-style: var(--text-body-font-style);
+  }
+  
+  .element-graphs .overlap-3 {
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    top: 0;
+    left: 0;
+    background-color: var(--primitives-colors-primary-03);
+  }
+  
+  .element-graphs .frame-wrapper {
+    position: absolute;
+    width: 391px;
+    height: 36px;
+    top: 18px;
+    left: 525px;
+  }
+  
+  .element-graphs .overlap-group-wrapper {
+    height: 36px;
+  }
+  
+  .element-graphs .overlap-group-3 {
+    position: relative;
+    width: 384px;
+    height: 34px;
+    top: 1px;
+    left: -1px;
+  }
+  
+  .element-graphs .rectangle-4 {
+    position: absolute;
+    width: 120px;
+    height: 34px;
+    top: 0;
+    left: 0;
+    background-color: var(--primitives-colors-misc-04);
+    border-radius: 4px;
+  }
+  
+  .element-graphs .frame-9 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    position: absolute;
+    top: 6px;
+    left: 22px;
+  }
+  
+  .element-graphs .name {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--desktop-table-header-font-family);
+    font-weight: var(--desktop-table-header-font-weight);
+    color: var(--primitives-colors-text-primary);
+    font-size: var(--desktop-table-header-font-size);
+    letter-spacing: var(--desktop-table-header-letter-spacing);
+    line-height: var(--desktop-table-header-line-height);
+    font-style: var(--desktop-table-header-font-style);
+  }
+  
+  .element-graphs .name-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--desktop-table-header-font-family);
+    font-weight: var(--desktop-table-header-font-weight);
+    color: var(--primitives-colors-background-02);
+    font-size: var(--desktop-table-header-font-size);
+    letter-spacing: var(--desktop-table-header-letter-spacing);
+    line-height: var(--desktop-table-header-line-height);
+    font-style: var(--desktop-table-header-font-style);
+  }
+  
+  .element-graphs .group-6 {
+    position: absolute;
+    width: 208px;
+    height: 37px;
+    top: 18px;
+    left: 40px;
+  }
+  
+  .element-graphs .overlap-4 {
+    position: absolute;
+    width: 668px;
+    height: 277px;
+    top: 757px;
+    left: 40px;
+    background-color: var(--primitives-colors-background-03);
+    border-radius: 4px;
+  }
+  
+  .element-graphs .text-wrapper-22 {
+    position: absolute;
+    top: 11px;
+    left: 16px;
+    font-family: var(--text-header-6-font-family);
+    font-weight: var(--text-header-6-font-weight);
+    color: var(--primitives-colors-primary-03);
+    font-size: var(--text-header-6-font-size);
+    letter-spacing: var(--text-header-6-letter-spacing);
+    line-height: var(--text-header-6-line-height);
+    font-style: var(--text-header-6-font-style);
+  }
+  
+  .element-graphs .group-7 {
+    position: absolute;
+    width: 123px;
+    height: 27px;
+    top: 48px;
+    left: 16px;
+  }
+  
+  .element-graphs .group-8 {
+    position: absolute;
+    width: 125px;
+    height: 24px;
+    top: 0;
+    left: 0;
+  }
+  
+  .element-graphs .text-wrapper-23 {
+    position: absolute;
+    height: 19px;
+    top: 1px;
+    left: 0;
+    font-family: var(--text-body-font-family);
+    font-weight: var(--text-body-font-weight);
+    color: var(--primitives-colors-misc-01);
+    font-size: var(--text-body-font-size);
+    letter-spacing: var(--text-body-letter-spacing);
+    line-height: var(--text-body-line-height);
+    font-style: var(--text-body-font-style);
+  }
+  
+  .element-graphs .icons-chevron-down {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 99px;
+    background-image: url(https://c.animaapp.com/i3AMIRRz/img/dc-72-chevron-down.svg);
+    background-size: 100% 100%;
+  }
+  
+  .element-graphs .line-3 {
+    position: absolute;
+    width: 119px;
+    height: 2px;
+    top: 25px;
+    left: 0;
+  }
+  
+  .element-graphs .group-9 {
+    position: absolute;
+    width: 124px;
+    height: 19px;
+    top: 14px;
+    left: 522px;
+  }
+  
+  .element-graphs .text-wrapper-24 {
+    position: absolute;
+    height: 19px;
+    top: 0;
+    left: 0;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: var(--primitives-colors-text-primary);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .element-graphs .text-wrapper-25 {
+    position: absolute;
+    height: 17px;
+    top: 1px;
+    left: 101px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: var(--primitives-colors-primary-01);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .element-graphs .group-10 {
+    position: absolute;
+    width: 646px;
+    height: 156px;
+    top: 105px;
+    left: 15px;
+  }
+  
+  .element-graphs .text-3 {
+    width: 105px;
+    top: 120px;
+    left: 0;
+    font-family: "Poppins", Helvetica;
+    color: #000000cc;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: -0.13px;
+    line-height: 18px;
+    position: absolute;
+    font-weight: 400;
+  }
+  
+  .element-graphs .text-4 {
+    width: 112px;
+    top: 120px;
+    left: 139px;
+    font-family: "Poppins", Helvetica;
+    color: #000000cc;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: -0.13px;
+    line-height: 18px;
+    position: absolute;
+    font-weight: 400;
+  }
+  
+  .element-graphs .text-5 {
+    width: 104px;
+    top: 120px;
+    left: 275px;
+    font-family: "Poppins", Helvetica;
+    color: #000000cc;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: -0.13px;
+    line-height: 18px;
+    position: absolute;
+    font-weight: 400;
+  }
+  
+  .element-graphs .text-6 {
+    width: 80px;
+    top: 120px;
+    left: 419px;
+    font-family: "Poppins", Helvetica;
+    color: #000000cc;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: -0.13px;
+    line-height: 18px;
+    position: absolute;
+    font-weight: 400;
+  }
+  
+  .element-graphs .text-7 {
+    width: 98px;
+    top: 120px;
+    left: 538px;
+    font-family: "Poppins", Helvetica;
+    color: #000000cc;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: -0.13px;
+    line-height: 18px;
+    position: absolute;
+    font-weight: 400;
+  }
+  
+  .element-graphs .overlap-5 {
+    position: absolute;
+    width: 630px;
+    height: 100px;
+    top: 0;
+    left: 3px;
+  }
+  
+  .element-graphs .line-4 {
+    position: absolute;
+    width: 629px;
+    height: 3px;
+    top: 50px;
+    left: 1px;
+    object-fit: cover;
+  }
+  
+  .element-graphs .div-wrapper {
+    position: absolute;
+    width: 102px;
+    height: 100px;
+    top: 0;
+    left: 0;
+  }
+  
+  .element-graphs .overlap-group-4 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #f1ecf8;
+    border-radius: 50px;
+    border: 3px solid;
+    border-color: var(--primitives-colors-secondary-01);
+  }
+  
+  .element-graphs .text-wrapper-26 {
+    position: absolute;
+    top: 39px;
+    left: 38px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: var(--primitives-colors-primary-03);
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: -0.13px;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .element-graphs .group-11 {
+    position: absolute;
+    width: 82px;
+    height: 80px;
+    top: 10px;
+    left: 152px;
+  }
+  
+  .element-graphs .overlap-6 {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background-color: #f1ecf8;
+    border-radius: 40px;
+    border: 3px solid;
+    border-color: var(--primitives-colors-secondary-01);
+  }
+  
+  .element-graphs .text-wrapper-27 {
+    position: absolute;
+    top: 29px;
+    left: 28px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: var(--primitives-colors-primary-03);
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: -0.13px;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .element-graphs .group-12 {
+    position: absolute;
+    width: 82px;
+    height: 80px;
+    top: 10px;
+    left: 284px;
+  }
+  
+  .element-graphs .group-13 {
+    position: absolute;
+    width: 82px;
+    height: 80px;
+    top: 10px;
+    left: 416px;
+  }
+  
+  .element-graphs .group-14 {
+    position: absolute;
+    width: 72px;
+    height: 70px;
+    top: 15px;
+    left: 548px;
+  }
+  
+  .element-graphs .overlap-7 {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-color: #f1ecf8;
+    border-radius: 35px;
+    border: 3px solid;
+    border-color: var(--primitives-colors-secondary-01);
+  }
+  
+  .element-graphs .text-wrapper-28 {
+    position: absolute;
+    top: 24px;
+    left: 23px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: var(--primitives-colors-primary-03);
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: -0.13px;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .element-graphs .frame-10 {
+    position: absolute;
+    width: 664px;
+    height: 277px;
+    top: 757px;
+    left: 736px;
+  }
+  
+  .element-graphs .overlap-8 {
+    position: relative;
+    width: 668px;
+    height: 277px;
+    background-color: var(--primitives-colors-background-03);
+    border-radius: 4px;
+  }
+  
+  .element-graphs .group-15 {
+    position: absolute;
+    width: 271px;
+    height: 24px;
+    top: 115px;
+    left: 26px;
+  }
+  
+  .element-graphs .shape-with-text {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: -1996px;
+    left: 2294px;
+  }
+  
+  .element-graphs .text-wrapper-29 {
+    position: absolute;
+    top: 4px;
+    left: 28px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: #000000cc;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: -0.13px;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .element-graphs .text-wrapper-30 {
+    position: absolute;
+    top: 0;
+    left: 208px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: var(--primitives-colors-primary-03);
+    font-size: 16px;
+    letter-spacing: -0.18px;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .element-graphs .group-16 {
+    position: absolute;
+    width: 266px;
+    height: 24px;
+    top: 153px;
+    left: 26px;
+  }
+  
+  .element-graphs .group-17 {
+    position: absolute;
+    width: 266px;
+    height: 24px;
+    top: 191px;
+    left: 26px;
+  }
+  
+  .element-graphs .group-18 {
+    position: absolute;
+    width: 271px;
+    height: 24px;
+    top: 229px;
+    left: 26px;
+  }
+  
+  .element-graphs .frame-11 {
+    display: flex;
+    flex-direction: column;
+    width: 271px;
+    align-items: flex-start;
+    gap: 14px;
+    position: absolute;
+    top: 115px;
+    left: 366px;
+  }
+  
+  .element-graphs .group-19 {
+    position: relative;
+    width: 270px;
+    height: 24px;
+  }
+  
+  .element-graphs .shape-with-text-2 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: -2111px;
+    left: 1928px;
+  }
+  
+  .element-graphs .group-20 {
+    position: relative;
+    width: 267px;
+    height: 24px;
+  }
+  
+  .element-graphs .group-21 {
+    position: relative;
+    width: 266px;
+    height: 24px;
+  }
+  
+  .element-graphs .overlap-group-5 {
+    position: absolute;
+    width: 615px;
+    height: 36px;
+    top: 58px;
+    left: 16px;
+  }
+  
+  .element-graphs .group-22 {
+    position: absolute;
+    width: 615px;
+    height: 32px;
+    top: 2px;
+    left: 0;
+  }
+  
+  .element-graphs .line-5 {
+    position: absolute;
+    width: 3px;
+    height: 36px;
+    top: 0;
+    left: 0;
+  }
+  
