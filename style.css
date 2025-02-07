@@ -1,0 +1,149 @@
+rect:hover {
+    fill: rgb(244, 211, 211);
+  }
+  svg {
+    cursor: pointer;
+  } 
+
+  body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    flex-direction: column; /* Ensure header stays at the top */
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #2c3030, #383b44);
+    padding: 10px 20px;
+    color: white;
+  }
+
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .nav a:hover {
+    text-decoration: underline;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .profile img {
+    width: 35px;
+    height: 35px;
+    /* border-radius: 50%; */
+  }
+
+
+  .arrow-down {
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 16px;
+    color: #f5f6f7;
+  }
+
+  .profile-dropdown {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    list-style: none;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+  }
+
+  .profile-dropdown li {
+    margin: 5px 0;
+  }
+
+  .profile-dropdown li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+
+  .profile-dropdown li a:hover {
+    text-decoration: underline;
+  }
+
+  .main-content {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  .svg-container {
+    flex: 2.5;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    overflow: auto;
+    /* min-width: 200px; */
+  }
+
+  .resizer {
+    width: 5px;
+    cursor: ew-resize;
+    background-color: #ccc;
+    position: relative;
+    z-index: 10;
+  }
+
+  .svg-container svg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .sidebar {
+    flex: 1;
+    background-color: #f8f9fa; /* Light theme background */
+    color: #212529; /* Light theme text color */
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    border-left: 1px solid #dee2e6; /* Optional border for separation */
+    /* min-width: 200px; */
+  }
+
+  .navbar {
+    background-color: #ffffff; /* Light theme navbar */
+    border-bottom: 1px solid #dee2e6;
+  }
+
+  .navbar-brand {
+    color: #212529;
+  }
+
+  footer {
+    margin-top: auto;
+    background-color: #ffffff;
+    border-top: 1px solid #dee2e6;
+  }
+
+  footer a {
+    color: #212529;
+  }
